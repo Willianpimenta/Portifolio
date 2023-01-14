@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="Section-1-bg" >
+     <aside>
+        <div class="icon-menu" onclick="abrirmenu()">
+            <img src="img/menu-aberto.png.png">
+        </div><!--icon-menu-->
+
+        <div id="barra-menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre mim</a></li>
+            </ul>
+
+            <div class="C-icon">
+
+                <a href="https://www.instagram.com/willianrodriguessk/?hl=pt"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/willian-rodrigues-76556a1ab/"><ion-icon name="logo-linkedin"></a>
+                <a href="https://github.com/Willianpimenta"><ion-icon name="logo-github"></a>
+
+            </div><!--icon-->
+        </div><!--barra-menu-->
+     </aside>
+
+    
+        <div class="main-title">
+            <h1>Willian </h1>
+            <h2>Desenvolvedor JR</h2>
+            <h5></h5>
+            <button class="btn">Saber mais</button>
+
+            <div class="Numeros">
+                <div class="title">
+                    <h3></h3>
+                <p></p>
+                </div><!--title-->
+
+                <div class="title">
+                    <h3></h3>
+                    <p></p>
+                </div><!--title-->
+
+                <div class="title">
+                    <h3></h3>
+                    <p></p>
+                </div><!--title-->
+
+            </div><!--Numeros-->
+        </div><!--main-title-->
+    </div><!--Section-1-bg-->
+
+
+    <section class="C-sobre" data-aos="fade-up">
+        <div class="image">
+            <img src="img/about.jpg">
+        </div><!--image-->
+
+        <div class="Sobre-mim">
+            <h1>Sobre mim</h1>
+            <h4>Desenvolvedor & <span>desing</span></h4>
+            <p>Olá meu nome Willian rodrigues tenho 22 anos, 
+                <br> sou natural de fortaleza-ce.Sou fascinado por
+                <br> games desde da infância, e dai surgiu a vontade
+                <br> de aprender a programar, criar, desenvolver, 
+                <br> sou uma pessoa determinada,preso muito pelo ambiente
+                <br> no qual Trabalho para manter a harmonia para assim 
+                <br> ser o mais produtivo possível,a área na qual mim,
+                <br> sinto mais confortável na parte de desenvolvimento web e design. 
+                </p>
+                <button class="btn">Saber mais</button>
+
+        </div><!--Sobre-mim-->
+    </section><!---C-sobre-->
+
+
+    <section class="Container" data-aos="fade-up">
+        <h1>Habilidades</h1>
+        <p>Estas são umas das minhas habilidades estou sempre em evolução</p>
+        <p></p>
+        <div class="C-card" data-aos="fade-up">
+            <div class="Card">
+                <img src="img/equipe.png" alt="jordan">
+                <h3>Trabalho em Equipe</h3>
+                    <h4>Gosto de trabalhar em equipe
+                    <br>acho que com uma boa equipe
+                    <br>podemos atigir uma boa performace
+                    <br>e melhor produção.</h4>
+            </div><!--Card-->
+
+            <div class="Card">
+                <img src="img/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" alt="Chanel-Logo-branco">
+                <h3>Javascript</h3>
+                <h4> minha primeira liguagem
+                <br> na qual sei fazer animações, 
+                <br> funções,entre mais algumas 
+                <br> coisas mais a muito aprender</h4>
+            </div><!--Card-->
+
+            <div class="Card">
+                <img src="img/css.png" alt="grafico">
+                <h3>CSS</h3>
+                <h4>Umas da liguagems que mais
+                    <br> domino, conseguindo fazer
+                    <br> animação,estilização,entre
+                    <br> outras coisas.</h4>
+            </div><!--Card-->
+        </div><!--C-card-->
+
+        <div class="C-card-2" data-aos="fade-up">
+
+            <div class="Card">
+                <img src="img/processo-interno.png" alt="computador">
+                <h3>Desenvolvimento Web</h3>
+                <h4>Criações de sites web,
+                    <br> apps, mexendo com front-end
+                    <br> tenho um pouco de conhecimento
+                    <br> em mysql</h4>
+            </div><!--Card-->
+
+
+            <div class="Card">
+                <img src="img/edicao-de-imagem.png" alt="camera">
+                <h3>Edição de imagem</h3>
+                <h4>Pelo um tempo ja trabalhei em 
+                    <br> Edição de fotos e videos 
+                    <br> ,para edições uso o 
+                    <br> adobe photoshop</h4>
+            </div><!--Card-->
+
+        </div><!--C-card-2-->
+    </section><!--conatiner-->
+
+
+    <section class="C-projetos" data-aos="fade-up">
+        <h1>Meus projetos</h1>
+        <div class="img-projetos" data-aos="fade-up">
+            <img src="img/logo.png" alt="projeto">
+            <img src="projeto-2.png" alt="projeto">
+        </div><!--img-projetos-->
+        <div class="img-2"><img src="projeto-3.png" alt="projeto"></div>
+    </section><!--C-projetos-->
+
+    <section class="C-rodapé" >
+        <h1>Nos envie uma mensagem para a gente fechar o projeto</h1>
+       <form>
+        <input type="email" name="email" id="email" placeholder="Envie uma mensagem">
+        <input type="submit" name="submit" value="Enviar">
+       </form>
+    </section><!--C-rodapé-->
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+</body>
+</html>
